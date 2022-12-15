@@ -1,0 +1,1914 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0916.1526                               -->
+<workbook original-version='18.1' source-build='2022.2.2 (20222.22.0916.1526)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CascadingFilters />
+    <CascadingFiltersHamburgerUI />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='covid_19_indonesia_time_series_all 2' inline='true' name='federated.0niwc7c0yryfko10x827w1ty3de5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='covid_19_indonesia_time_series_all 2' name='textscan.0zoi2oi0nr3l2y1a5b2y914uvacf'>
+            <connection class='textscan' directory='C:/Users/dagbo/Data sciences project' filename='covid_19_indonesia_time_series_all 2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0zoi2oi0nr3l2y1a5b2y914uvacf' name='covid_19_indonesia_time_series_all 2.csv' table='[covid_19_indonesia_time_series_all 2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Location ISO Code' ordinal='1' />
+            <column datatype='string' name='Location' ordinal='2' />
+            <column datatype='integer' name='New Cases' ordinal='3' />
+            <column datatype='integer' name='New Deaths' ordinal='4' />
+            <column datatype='integer' name='New Recovered' ordinal='5' />
+            <column datatype='integer' name='New Active Cases' ordinal='6' />
+            <column datatype='integer' name='Total Cases' ordinal='7' />
+            <column datatype='integer' name='Total Deaths' ordinal='8' />
+            <column datatype='integer' name='Total Recovered' ordinal='9' />
+            <column datatype='integer' name='Total Active Cases' ordinal='10' />
+            <column datatype='string' name='Location Level' ordinal='11' />
+            <column datatype='string' name='City or Regency' ordinal='12' />
+            <column datatype='string' name='Province' ordinal='13' />
+            <column datatype='string' name='Country' ordinal='14' />
+            <column datatype='string' name='Continent' ordinal='15' />
+            <column datatype='string' name='Island' ordinal='16' />
+            <column datatype='string' name='Time Zone' ordinal='17' />
+            <column datatype='string' name='Special Status' ordinal='18' />
+            <column datatype='integer' name='Total Regencies' ordinal='19' />
+            <column datatype='integer' name='Total Cities' ordinal='20' />
+            <column datatype='integer' name='Total Districts' ordinal='21' />
+            <column datatype='integer' name='Total Urban Villages' ordinal='22' />
+            <column datatype='integer' name='Total Rural Villages' ordinal='23' />
+            <column datatype='integer' name='Area (km2)' ordinal='24' />
+            <column datatype='integer' name='Population' ordinal='25' />
+            <column datatype='real' name='Population Density' ordinal='26' />
+            <column datatype='real' name='Longitude' ordinal='27' />
+            <column datatype='real' name='Latitude' ordinal='28' />
+            <column datatype='real' name='New Cases per Million' ordinal='29' />
+            <column datatype='real' name='Total Cases per Million' ordinal='30' />
+            <column datatype='real' name='New Deaths per Million' ordinal='31' />
+            <column datatype='real' name='Total Deaths per Million' ordinal='32' />
+            <column datatype='real' name='Total Deaths per 100rb' ordinal='33' />
+            <column datatype='real' name='Case Fatality Rate' ordinal='34' />
+            <column datatype='real' name='Case Recovered Rate' ordinal='35' />
+            <column datatype='real' name='Growth Factor of New Cases' ordinal='36' />
+            <column datatype='real' name='Growth Factor of New Deaths' ordinal='37' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0zoi2oi0nr3l2y1a5b2y914uvacf' name='covid_19_indonesia_time_series_all 2.csv' table='[covid_19_indonesia_time_series_all 2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Location ISO Code' ordinal='1' />
+            <column datatype='string' name='Location' ordinal='2' />
+            <column datatype='integer' name='New Cases' ordinal='3' />
+            <column datatype='integer' name='New Deaths' ordinal='4' />
+            <column datatype='integer' name='New Recovered' ordinal='5' />
+            <column datatype='integer' name='New Active Cases' ordinal='6' />
+            <column datatype='integer' name='Total Cases' ordinal='7' />
+            <column datatype='integer' name='Total Deaths' ordinal='8' />
+            <column datatype='integer' name='Total Recovered' ordinal='9' />
+            <column datatype='integer' name='Total Active Cases' ordinal='10' />
+            <column datatype='string' name='Location Level' ordinal='11' />
+            <column datatype='string' name='City or Regency' ordinal='12' />
+            <column datatype='string' name='Province' ordinal='13' />
+            <column datatype='string' name='Country' ordinal='14' />
+            <column datatype='string' name='Continent' ordinal='15' />
+            <column datatype='string' name='Island' ordinal='16' />
+            <column datatype='string' name='Time Zone' ordinal='17' />
+            <column datatype='string' name='Special Status' ordinal='18' />
+            <column datatype='integer' name='Total Regencies' ordinal='19' />
+            <column datatype='integer' name='Total Cities' ordinal='20' />
+            <column datatype='integer' name='Total Districts' ordinal='21' />
+            <column datatype='integer' name='Total Urban Villages' ordinal='22' />
+            <column datatype='integer' name='Total Rural Villages' ordinal='23' />
+            <column datatype='integer' name='Area (km2)' ordinal='24' />
+            <column datatype='integer' name='Population' ordinal='25' />
+            <column datatype='real' name='Population Density' ordinal='26' />
+            <column datatype='real' name='Longitude' ordinal='27' />
+            <column datatype='real' name='Latitude' ordinal='28' />
+            <column datatype='real' name='New Cases per Million' ordinal='29' />
+            <column datatype='real' name='Total Cases per Million' ordinal='30' />
+            <column datatype='real' name='New Deaths per Million' ordinal='31' />
+            <column datatype='real' name='Total Deaths per Million' ordinal='32' />
+            <column datatype='real' name='Total Deaths per 100rb' ordinal='33' />
+            <column datatype='real' name='Case Fatality Rate' ordinal='34' />
+            <column datatype='real' name='Case Recovered Rate' ordinal='35' />
+            <column datatype='real' name='Growth Factor of New Cases' ordinal='36' />
+            <column datatype='real' name='Growth Factor of New Deaths' ordinal='37' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location ISO Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location ISO Code]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Location ISO Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recovered]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>New Recovered</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Active Cases]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>New Active Cases</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Recovered]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Recovered</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Active Cases]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Active Cases</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location Level]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Location Level</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City or Regency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City or Regency]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>City or Regency</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Province]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Province</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Continent]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Continent</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Island</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Island]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Island</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Zone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Time Zone]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Time Zone</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Special Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Special Status]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Special Status</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Regencies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Regencies]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Regencies</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cities]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Cities</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Districts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Districts]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Districts</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Urban Villages</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Urban Villages]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Urban Villages</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Rural Villages</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Rural Villages]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Rural Villages</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area (km2)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Area (km2)]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Area (km2)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population Density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population Density]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Population Density</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases per Million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Cases per Million]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>New Cases per Million</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases per Million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Cases per Million]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Cases per Million</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths per Million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Deaths per Million]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>New Deaths per Million</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths per Million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Deaths per Million]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Deaths per Million</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths per 100rb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Deaths per 100rb]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Total Deaths per 100rb</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Case Fatality Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Case Fatality Rate]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Case Fatality Rate</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Case Recovered Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Case Recovered Rate]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Case Recovered Rate</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Growth Factor of New Cases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Growth Factor of New Cases]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Growth Factor of New Cases</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Growth Factor of New Deaths</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Growth Factor of New Deaths]</local-name>
+            <parent-name>[covid_19_indonesia_time_series_all 2.csv]</parent-name>
+            <remote-alias>Growth Factor of New Deaths</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City or Regency]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[New Active Cases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Deaths]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Recovered]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[Total Active Cases (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='4' formula='[Total Active Cases]' peg='0' size='11031' />
+      </column>
+      <column datatype='integer' name='[Total Active Cases]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='covid_19_indonesia_time_series_all 2.csv' datatype='table' name='[__tableau_internal_object_id__].[covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164]' role='measure' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+      <column-instance column='[New Active Cases]' derivation='Sum' name='[sum:New Active Cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths]' derivation='Sum' name='[sum:New Deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Recovered]' derivation='Sum' name='[sum:New Recovered:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Country, Province, City or Regency'>
+          <field>[Country]</field>
+          <field>[Province]</field>
+          <field>[City or Regency]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Active Cases:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Recovered:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Cases:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Province:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Jawa Barat&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sulawesi Tengah&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aceh&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Maluku Utara&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Daerah Istimewa Yogyakarta&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Papua Barat&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kalimantan Selatan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sumatera Selatan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jawa Tengah&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sulawesi Tenggara&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DKI Jakarta&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Riau&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lampung&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bali&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nusa Tenggara Barat&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kepulauan Bangka Belitung&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gorontalo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sulawesi Barat&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kalimantan Tengah&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sumatera Utara&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kalimantan Timur&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kepulauan Riau&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Maluku&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jawa Timur&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sulawesi Utara&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Jambi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sulawesi Selatan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Banten&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nusa Tenggara Timur&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kalimantan Utara&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kalimantan Barat&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sumatera Barat&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bengkulu&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Papua&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='covid_19_indonesia_time_series_all 2.csv' id='covid_19_indonesia_time_series_all 2.csv_B4C7C318761F47F5B88AEBB0805D9164'>
+            <properties context=''>
+              <relation connection='textscan.0zoi2oi0nr3l2y1a5b2y914uvacf' name='covid_19_indonesia_time_series_all 2.csv' table='[covid_19_indonesia_time_series_all 2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='Location ISO Code' ordinal='1' />
+                  <column datatype='string' name='Location' ordinal='2' />
+                  <column datatype='integer' name='New Cases' ordinal='3' />
+                  <column datatype='integer' name='New Deaths' ordinal='4' />
+                  <column datatype='integer' name='New Recovered' ordinal='5' />
+                  <column datatype='integer' name='New Active Cases' ordinal='6' />
+                  <column datatype='integer' name='Total Cases' ordinal='7' />
+                  <column datatype='integer' name='Total Deaths' ordinal='8' />
+                  <column datatype='integer' name='Total Recovered' ordinal='9' />
+                  <column datatype='integer' name='Total Active Cases' ordinal='10' />
+                  <column datatype='string' name='Location Level' ordinal='11' />
+                  <column datatype='string' name='City or Regency' ordinal='12' />
+                  <column datatype='string' name='Province' ordinal='13' />
+                  <column datatype='string' name='Country' ordinal='14' />
+                  <column datatype='string' name='Continent' ordinal='15' />
+                  <column datatype='string' name='Island' ordinal='16' />
+                  <column datatype='string' name='Time Zone' ordinal='17' />
+                  <column datatype='string' name='Special Status' ordinal='18' />
+                  <column datatype='integer' name='Total Regencies' ordinal='19' />
+                  <column datatype='integer' name='Total Cities' ordinal='20' />
+                  <column datatype='integer' name='Total Districts' ordinal='21' />
+                  <column datatype='integer' name='Total Urban Villages' ordinal='22' />
+                  <column datatype='integer' name='Total Rural Villages' ordinal='23' />
+                  <column datatype='integer' name='Area (km2)' ordinal='24' />
+                  <column datatype='integer' name='Population' ordinal='25' />
+                  <column datatype='real' name='Population Density' ordinal='26' />
+                  <column datatype='real' name='Longitude' ordinal='27' />
+                  <column datatype='real' name='Latitude' ordinal='28' />
+                  <column datatype='real' name='New Cases per Million' ordinal='29' />
+                  <column datatype='real' name='Total Cases per Million' ordinal='30' />
+                  <column datatype='real' name='New Deaths per Million' ordinal='31' />
+                  <column datatype='real' name='Total Deaths per Million' ordinal='32' />
+                  <column datatype='real' name='Total Deaths per 100rb' ordinal='33' />
+                  <column datatype='real' name='Case Fatality Rate' ordinal='34' />
+                  <column datatype='real' name='Case Recovered Rate' ordinal='35' />
+                  <column datatype='real' name='Growth Factor of New Cases' ordinal='36' />
+                  <column datatype='real' name='Growth Factor of New Deaths' ordinal='37' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Basic summary'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Regular' fontsize='18'>Covid 19 indonesia summary  for all provinces</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Cases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Deaths]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Recovered]' role='measure' type='quantitative' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Cases]' derivation='Sum' name='[sum:Total Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Deaths]' derivation='Sum' name='[sum:Total Deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Recovered]' derivation='Sum' name='[sum:Total Recovered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Cases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Deaths:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]'>
+            <groupfilter function='except' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Province:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</column>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[Multiple Values]' />
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{D2383F1C-9262-4A45-94F4-F482BACEA0FC}' />
+    </worksheet>
+    <worksheet name='Comparison between the new cases,new deaths and new recoveries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#808080' fontsize='16'>Comparison of Increase in New Cases, Deaths and recoveries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Deaths]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Recovered]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='Quarter' name='[qr:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths]' derivation='Sum' name='[sum:New Deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Recovered]' derivation='Sum' name='[sum:New Recovered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Cases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Deaths:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Recovered:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[my:Date:ok]'>
+            <groupfilter from='202003' function='range' level='[my:Date:ok]' to='202112' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[my:Date:ok]</column>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[Multiple Values]</rows>
+        <cols>([federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names] / [federated.0niwc7c0yryfko10x827w1ty3de5].[qr:Date:ok])</cols>
+      </table>
+      <simple-id uuid='{ECFA5B6F-452D-4727-8470-35715AAA58D5}' />
+    </worksheet>
+    <worksheet name='No of cases till dec 2021'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='JetBrains Mono' fontsize='10'>Number of Cases up to December 2021</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Total Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='Quarter' name='[qr:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Total Cases]' derivation='Sum' name='[sum:Total Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[mn:Date:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Cases:qk]</rows>
+        <cols>([federated.0niwc7c0yryfko10x827w1ty3de5].[yr:Date:ok] / ([federated.0niwc7c0yryfko10x827w1ty3de5].[qr:Date:ok] / [federated.0niwc7c0yryfko10x827w1ty3de5].[mn:Date:ok]))</cols>
+      </table>
+      <simple-id uuid='{E550C437-68CD-45FE-9F15-DF3162BEBE92}' />
+    </worksheet>
+    <worksheet name='Total Active Cases'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total active cases visualization
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Active Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Active Cases]' derivation='Sum' name='[sum:Total Active Cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]'>
+            <groupfilter function='except' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Province:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Active Cases:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Active Cases:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Active Cases:qk]' />
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Active Cases:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</rows>
+        <cols>[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Active Cases:qk]</cols>
+      </table>
+      <simple-id uuid='{8B4405D5-25DB-493E-BC44-AA5D54CCB5CC}' />
+    </worksheet>
+    <worksheet name='Total Recovered'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Recovered]' role='measure' type='quantitative' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Recovered]' derivation='Sum' name='[sum:Total Recovered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Province:nk]' />
+              <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]' />
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</rows>
+        <cols>[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]</cols>
+      </table>
+      <simple-id uuid='{2BAE15A0-0D73-4B08-9D81-E40D8141D0DC}' />
+    </worksheet>
+    <worksheet name='Total cases'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Cases in each province</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Cases]' derivation='Sum' name='[sum:Total Cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]'>
+            <groupfilter function='except' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Province:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Cases:qk]</rows>
+        <cols>([federated.0niwc7c0yryfko10x827w1ty3de5].[none:Country:nk] / [federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk])</cols>
+      </table>
+      <simple-id uuid='{E04889F1-0299-49A5-A06D-7AF7786DDC67}' />
+    </worksheet>
+    <worksheet name='Total deaths'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total deaths visualization&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Deaths]' role='measure' type='quantitative' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Deaths]' derivation='Sum' name='[sum:Total Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Province:nk]' />
+              <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Jawa Timur&quot;</bucket>
+              <bucket>&quot;Jawa Tengah&quot;</bucket>
+              <bucket>&quot;DKI Jakarta&quot;</bucket>
+              <bucket>&quot;Jawa Barat&quot;</bucket>
+              <bucket>&quot;Kalimantan Timur&quot;</bucket>
+              <bucket>&quot;Daerah Istimewa Yogyakarta&quot;</bucket>
+              <bucket>&quot;Riau&quot;</bucket>
+              <bucket>&quot;Bali&quot;</bucket>
+              <bucket>&quot;Sumatera Selatan&quot;</bucket>
+              <bucket>&quot;Lampung&quot;</bucket>
+              <bucket>&quot;Sumatera Utara&quot;</bucket>
+              <bucket>&quot;Banten&quot;</bucket>
+              <bucket>&quot;Kalimantan Selatan&quot;</bucket>
+              <bucket>&quot;Sulawesi Selatan&quot;</bucket>
+              <bucket>&quot;Sumatera Barat&quot;</bucket>
+              <bucket>&quot;Aceh&quot;</bucket>
+              <bucket>&quot;Kepulauan Riau&quot;</bucket>
+              <bucket>&quot;Kalimantan Tengah&quot;</bucket>
+              <bucket>&quot;Sulawesi Utara&quot;</bucket>
+              <bucket>&quot;Sulawesi Tengah&quot;</bucket>
+              <bucket>&quot;Nusa Tenggara Timur&quot;</bucket>
+              <bucket>&quot;Nusa Tenggara Barat&quot;</bucket>
+              <bucket>&quot;Kepulauan Bangka Belitung&quot;</bucket>
+              <bucket>&quot;Kalimantan Barat&quot;</bucket>
+              <bucket>&quot;Papua&quot;</bucket>
+              <bucket>&quot;Kalimantan Utara&quot;</bucket>
+              <bucket>&quot;Jambi&quot;</bucket>
+              <bucket>&quot;Sulawesi Tenggara&quot;</bucket>
+              <bucket>&quot;Bengkulu&quot;</bucket>
+              <bucket>&quot;Gorontalo&quot;</bucket>
+              <bucket>&quot;Papua Barat&quot;</bucket>
+              <bucket>&quot;Maluku Utara&quot;</bucket>
+              <bucket>&quot;Maluku&quot;</bucket>
+              <bucket>&quot;Sulawesi Barat&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Deaths:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Deaths:qk]' />
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Deaths:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</rows>
+        <cols>[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Deaths:qk]</cols>
+      </table>
+      <simple-id uuid='{3D4191DA-8158-40E1-80B4-E2DBC504F23A}' />
+    </worksheet>
+    <worksheet name='comparison of both new cases and active cases against date'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='18'>Comparison of both new cases and active cases against date</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[New Active Cases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+            <column-instance column='[New Active Cases]' derivation='Sum' name='[sum:New Active Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Active Cases:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Cases:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Active Cases:qk] + [federated.0niwc7c0yryfko10x827w1ty3de5].[sum:New Cases:qk])</rows>
+        <cols>[federated.0niwc7c0yryfko10x827w1ty3de5].[twk:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{DDA7E7BE-3AD6-4721-B59B-D0569D08064C}' />
+    </worksheet>
+    <worksheet name='map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Cases]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Cases]' derivation='Sum' name='[sum:Total Cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]'>
+            <groupfilter function='except' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Province:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Province:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0niwc7c0yryfko10x827w1ty3de5].[Longitude (generated)]' field-type='quantitative' max='18762920.047960795' min='10143755.417214185' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0niwc7c0yryfko10x827w1ty3de5].[Latitude (generated)]' field-type='quantitative' max='11503.758180706296' min='-1075836.971497725' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Country:nk]' />
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' />
+              <text column='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Cases:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0niwc7c0yryfko10x827w1ty3de5].[Latitude (generated)]</rows>
+        <cols>[federated.0niwc7c0yryfko10x827w1ty3de5].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D73B95F7-A5C7-4DDE-9887-B50DC3FD36A2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Light'>VISUALIZATION OF THE COVID 19 DATA IN INDONESIA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='covid_19_indonesia_time_series_all 2' name='federated.0niwc7c0yryfko10x827w1ty3de5' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0niwc7c0yryfko10x827w1ty3de5'>
+        <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone fixed-size='88' h='12000' id='13' is-fixed='true' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='326' h='41750' id='33' is-fixed='true' name='map' w='98400' x='800' y='13000'>
+              <layout-cache minheight='244' type-h='scalable' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='44250' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='54750'>
+              <zone h='44250' id='5' type-v2='layout-basic' w='82400' x='800' y='54750'>
+                <zone h='23341' id='3' name='Total cases' w='82400' x='800' y='75659'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='20909' id='36' name='Basic summary' w='82400' x='800' y='54750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='44250' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='54750'>
+                <zone h='2750' id='8' name='Total cases' pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type-v2='color' w='16000' x='83200' y='54750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10250' id='34' name='map' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type-v2='filter' values='cascading' w='16000' x='83200' y='57500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='2750' id='35' name='map' pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Country:nk]' type-v2='color' w='16000' x='83200' y='67750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10250' id='37' name='Basic summary' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type-v2='filter' values='cascading' w='16000' x='83200' y='70500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Tableau Light'>VISUALIZATION OF THE COVID 19 DATA IN INDONESIA</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='46' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='88' h='12000' id='13' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12833' id='34' mode='checkdropdown' name='map' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type-v2='filter' values='cascading' w='16000' x='83200' y='67583'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41750' id='33' is-fixed='true' name='map' w='98400' x='800' y='13000'>
+                  <layout-cache minheight='244' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5750' id='35' name='map' pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Country:nk]' type-v2='color' w='16000' x='83200' y='80416'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12834' id='37' mode='checkdropdown' name='Basic summary' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type-v2='filter' values='cascading' w='16000' x='83200' y='86166'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='159' h='20909' id='36' is-fixed='true' name='Basic summary' w='82400' x='800' y='54750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='179' h='23341' id='3' is-fixed='true' name='Total cases' w='82400' x='800' y='75659'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12833' id='8' name='Total cases' pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type-v2='color' w='16000' x='83200' y='54750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D35C62A8-AAE1-4494-98D5-5A7E47DAB361}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total cases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EE64BA4F-A29D-4B0D-BCC7-AB16F7E26BD6}' />
+    </window>
+    <window class='worksheet' name='Total deaths'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Deaths:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{75A977B2-2CAC-4561-81ED-E13BAE8BBD90}' />
+    </window>
+    <window class='worksheet' name='Total Recovered'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Recovered:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FB479C40-BF99-444F-B3CC-4C99A835DA03}' />
+    </window>
+    <window class='worksheet' name='Total Active Cases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[sum:Total Active Cases:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CCC38362-E4EA-494B-8EA5-B5246DC5DDBA}' />
+    </window>
+    <window class='worksheet' name='No of cases till dec 2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[mn:Date:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{165D2C1E-6CDB-445B-86C8-96EDFB47D061}' />
+    </window>
+    <window class='worksheet' name='comparison of both new cases and active cases against date'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16A676D5-5F23-48D7-9C62-8D6DAF7B7C35}' />
+    </window>
+    <window class='worksheet' name='Comparison between the new cases,new deaths and new recoveries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8C2B66A0-C048-439D-AC78-30888EAE8B49}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Basic summary'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total cases'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9A22F117-BBAC-4A35-B9EB-296FCE71E44C}' />
+    </window>
+    <window class='worksheet' name='Basic summary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type='filter' values='cascading' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{BE965DA2-43E6-4898-8C4A-A09910F2FE6C}' />
+    </window>
+    <window class='worksheet' name='map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Province:nk]' type='filter' values='cascading' />
+            <card pane-specification-id='0' param='[federated.0niwc7c0yryfko10x827w1ty3de5].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BE4F64F1-748E-4C81-99ED-D6CF1DA8F34B}' />
+    </window>
+  </windows>
+</workbook>
